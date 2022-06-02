@@ -412,6 +412,10 @@ main {
   padding-bottom: 60px;
 }
 
+.footer-name-list {
+  margin-right: 70px;
+}
+
 .footer-logo-web {
   font-family: "Raleway", sant-serif;
   font-weight: 700;
@@ -447,7 +451,7 @@ address {
 }
 
 .footer-tel-item {
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 
 .footer-sait {
