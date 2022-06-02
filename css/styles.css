@@ -447,7 +447,7 @@ address {
 }
 
 .footer-tel-item {
-  margin-bottom: 0px;
+  margin-bottom: 60px;
 }
 
 .footer-sait {
@@ -478,6 +478,58 @@ address {
 .footer-sait:hover,
 .footer-sait:focus {
   color: var(--accent-color);
+}
+
+.name-title {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-title-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.name-title-item {
+  width: 44px;
+  height: 44px;
+  /*margin-right: 10px;*/
+}
+
+.name-title-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.name-title-link {
+  width: 100%;
+  height: 100%;
+  /*background-color: tomato;*/
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-item-icon {
+  fill: rgba(255, 255, 255, 0.1);
+}
+
+.name-title-link:hover,
+.name-title-link:focus {
+  background-color: #2196f3;
+}
+
+.name-title-link:hover .name-item-icon,
+.name-title-link:focus .name-item-icon {
+  fill: #ffffff;
 }
 
 /* Portfolio */
