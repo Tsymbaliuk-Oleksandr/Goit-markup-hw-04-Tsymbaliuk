@@ -301,6 +301,7 @@ main {
 .internet-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .internet-item {
@@ -321,6 +322,20 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.internet-item-icon {
+  fill: #afb1b8;
+}
+
+.internet-link:hover,
+.internet-link:focus {
+  background-color: #2196f3;
+}
+
+.internet-link:hover .internet-item-icon,
+.internet-link:focus .internet-item-icon {
+  fill: #ffffff;
 }
 
 /* Footer */
