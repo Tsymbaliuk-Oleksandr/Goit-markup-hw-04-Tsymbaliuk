@@ -431,7 +431,8 @@ main {
 .customer-link:hover,
 .customer-link:focus {
   background-color: #ffffff;
-  outline: 1px solid #2196f3;
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
 
 .customer-link:hover .customer-item-icon,
