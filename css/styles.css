@@ -311,7 +311,7 @@ main {
 }
 
 .internet-item:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 .internet-link {
