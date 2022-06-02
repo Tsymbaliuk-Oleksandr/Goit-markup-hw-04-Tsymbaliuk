@@ -122,6 +122,32 @@ ol {
   margin-right: 50px;
 }
 
+.contact-icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: #757575;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-icon-mail:hover,
+.contact-icon-mail:focus {
+  fill: #2196f3;
+}
+
+.contact-icon-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: #757575;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-icon-tel:hover,
+.contact-icon-tel:focus {
+  fill: #2196f3;
+}
+
 .section {
   padding: 94px 0;
 }
@@ -129,6 +155,13 @@ ol {
 .section-foto {
   padding-top: 0;
   padding-bottom: 94px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .portfolio-button:not(:last-child) {
@@ -306,6 +339,10 @@ main {
 .last-title {
   padding-top: 30px;
   padding-bottom: 30px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .name {
@@ -570,6 +607,14 @@ address {
   border-right: 30px;
   border-bottom: 30px;
   border-left: 30px;
+}
+
+.portfolio-li:hover,
+.portfolio-li:focus {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-list {
