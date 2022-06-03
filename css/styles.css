@@ -55,7 +55,7 @@ ol {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 1px solid red; видалити */
+  outline: 1px solid red; /*видалити*/
 }
 
 .header-connect {
@@ -68,15 +68,7 @@ ol {
   margin-left: auto;
   align-items: center;
   display: flex;
-  fill: #757575;
-  color: #757575;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.header-contacts:hover,
-.header-contacts:focus {
-  fill: #2196f3;
-  color: var(--btn-background);
 }
 
 .visually-hidden {
@@ -120,11 +112,6 @@ ol {
   width: 16px;
   height: 14px;
   margin-right: 10px;
-}
-
-.contact-icon-mail:hover,
-.contact-icon-mail:focus {
-  fill: #2196f3;
 }
 
 .contact-icon-tel {
@@ -204,9 +191,18 @@ a,
 
 .header-mail:hover,
 .header-mail:focus,
-.header-tel:hover,
-.header-tel:focus {
+.contact-icon-mail:hover,
+.contact-icon-mail:focus {
   color: var(--accent-color);
+  fill: #2196f3;
+}
+
+.header-tel:hover,
+.header-tel:focus,
+.contact-icon-tel:hover,
+.contact-icon-tel:focus {
+  color: var(--accent-color);
+  fill: #2196f3;
 }
 
 /* Main */
