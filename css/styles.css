@@ -30,6 +30,7 @@ body {
 
 .header-container {
   display: flex;
+  align-items: baseline;
 }
 
 .header-logo-web {
@@ -54,7 +55,7 @@ ol {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  /*outline: 1px solid red;*/ /* видалити */
+  /* outline: 1px solid red; видалити */
 }
 
 .header-connect {
@@ -67,6 +68,15 @@ ol {
   margin-left: auto;
   align-items: center;
   display: flex;
+  fill: #757575;
+  color: #757575;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+  fill: #2196f3;
+  color: var(--btn-background);
 }
 
 .visually-hidden {
@@ -82,29 +92,19 @@ ol {
   margin: -1px;
 }
 
-.icon-list {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.icon-item {
+.icon-link {
   width: 270px;
   height: 120px;
   margin-right: 30px;
-}
-
-.icon-item:not(:last-child) {
-  margin-right: 0px;
-}
-
-.icon-link {
-  width: 100%;
-  height: 100%;
   /*background-color: tomato;*/
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
+}
+
+.icon-link:not(:last-child) {
+  margin-right: 30px;
 }
 
 .header-nav {
@@ -124,10 +124,8 @@ ol {
 
 .contact-icon-mail {
   width: 16px;
-  height: 12px;
+  height: 14px;
   margin-right: 10px;
-  fill: #757575;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .contact-icon-mail:hover,
@@ -136,16 +134,9 @@ ol {
 }
 
 .contact-icon-tel {
-  width: 10px;
+  width: 14px;
   height: 16px;
   margin-right: 10px;
-  fill: #757575;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.contact-icon-tel:hover,
-.contact-icon-tel:focus {
-  fill: #2196f3;
 }
 
 .section {
@@ -268,6 +259,11 @@ main {
   border-radius: 4px;
   cursor: pointer;
   text-align: center;
+  border: none;
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-left: 32px;
 }
 
 .sekond-list {
@@ -363,7 +359,6 @@ main {
 .internet-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
 }
 
 .internet-item {
@@ -406,8 +401,8 @@ main {
 }
 
 .customer-item {
-  width: 106px;
-  height: 60px;
+  width: 170px;
+  height: 92px;
   /*margin-right: 30px;*/
 }
 
@@ -529,7 +524,7 @@ address {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
-  color: #ffffff;
+  color: var(--btn-color);
   align-items: center;
   justify-content: center;
 }
@@ -537,7 +532,6 @@ address {
 .name-title-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
 }
 
 .name-title-item {
@@ -586,6 +580,13 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .portfolio-item:hover,
@@ -612,6 +613,7 @@ address {
 
 .portfolio-li:hover,
 .portfolio-li:focus {
+  display: block;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
